@@ -7107,4 +7107,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "CAP",
 	},
+	flarelite: {
+		name: "Flarelite",
+		spritenum: 852,
+		megaStone: "Flareloom-Mega",
+		megaEvolves: "Flareloom",
+		itemUser: ["Flareloom"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -1,
+		gen: 8,
+		isNonstandard: "CAP",
+	},
 };

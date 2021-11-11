@@ -3623,6 +3623,66 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	astrolotl: {
 		name: "Astrolotl",
 	},
+	chocopert: {
+		name: "Chocopert"
+	},
+	chocopertmega: {
+		name: "Chocopert-Mega"
+	},
+	yalemory: {
+		name: "Yalemory"
+	},
+	yalemorymega: {
+		name: "Yalemory-Mega"
+	},
+	dorderra: {
+		name: "Dorderra"
+	},
+	titanios: {
+		name: "Titanios",
+	},
+	titaniosmega: {
+		name: "Titanios-Mega"
+	},
+	ultigigas: {
+		name: "Ultigigas"
+	},
+	typhtesla: {
+		name: "Typhtesla"
+	},
+	enteimega: {
+		name: "Entei-Mega"
+	},
+	raikoumega: {
+		name: "Raikou-Mega"
+	},
+	suicunemega: {
+		name: "Suicune-Mega"
+	},
+	spiritran: {
+		name: "Spiritran"
+	},
+	flareloom: {
+		name: "Flareloom"
+	},
+	flareloommega: {
+		name: "Flareloom-Mega"
+	},
+	flygonmega: {
+		name: "Flygon-Mega"
+	},
+	robodas: {
+		name: "Robodas"
+	},
+	togeru: {
+		name: "Togeru"
+	},
+	zytias: {
+		name: "Zytias"
+	},
+	zytiasmega: {
+		name: "Zytias-Mega"
+	},
 	pokestarsmeargle: {
 		name: "Pokestar Smeargle",
 	},
