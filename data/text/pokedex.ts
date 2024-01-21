@@ -1673,6 +1673,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	bronzor: {
 		name: "Bronzor",
 	},
+	bronzorsolarian: {
+		name: "Bronzor-Solarian",
+	},
 	bronzong: {
 		name: "Bronzong",
 	},
@@ -3775,5 +3778,140 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	chocokip: {
 		name: "Chocokip",
+	},
+	turtaya: {
+		name: "Turtaya",
+	},
+	grotum: {
+		name: "Grotum",
+	},
+	dorderra: {
+		name: "Dorderra",
+	},
+	elequil: {
+		name: "Elequil",
+	},
+	quilzap: {
+		name: "Quilzap",
+	},
+	typhtesla: {
+		name: "Typhtesla",
+	},
+	flareshroom: {
+		name: "Flareshroom",
+	},
+	flareloom: {
+		name: "Flareloom",
+	},
+	serfen: {
+		name: "Serfen",
+	},
+	squiyore: {
+		name: "Squiyore",
+	},
+	withorde: {
+		name: "Withorde",
+	},
+	vremantis: {
+		name: "Vremantis",
+	},
+	caimanrago: {
+		name: "Caimanrago",
+	},
+	gemix: {
+		name: "Gemix",
+	},
+	crystalix: {
+		name: "Crystalix",
+	},
+	forrogue: {
+		name: "Forrogue",
+	},
+	bellzong: {
+		name: "Bellzong",
+	},
+	plaguekrow: {
+		name: "Plaguekrow",
+	},
+	pumpkasaur: {
+		name: "Pumpkasaur",
+	},
+	spectoise: {
+		name: "Spectoise",
+	},
+	ghoulizard: {
+		name: "Ghoulizard",
+	},
+	bloodtales: {
+		name: "Bloodtales",
+	},
+	kringuin: {
+		name: "Kringuin",
+	},
+	skellejack: {
+		name: "Skellejack",
+	},
+	zapoleon: {
+		name: "Zapoleon",
+	},
+	frostiken: {
+		name: "Frostiken",
+	},
+	acideon: {
+		name: "Acideon",
+	},
+	aereon: {
+		name: "Aereon",
+	},
+	automeon: {
+		name: "Automeon",
+	},
+	champeon: {
+		name: "Champeon",
+	},
+	dungeon: {
+		name: "Dungeon",
+	},
+	eeveeon: {
+		name: "Eeveeon",
+	},
+	hiveon: {
+		name: "Hiveon",
+	},
+	minereon: {
+		name: "Minereon",
+	},
+	spectreon: {
+		name: "Spectreon",
+	},
+	wyveon: {
+		name: "Wyveon",
+	},
+	arkidna: {
+		name: "Arkidna",
+	},
+	spiritran: {
+		name: "Spiritran",
+	},
+	titanios: {
+		name: "Titanios",
+	},
+	togo: {
+		name: "Togo",
+	},
+	togeo: {
+		name: "Togeo",
+	},
+	togeru: {
+		name: "Togeru",
+	},
+	ultigigas: {
+		name: "Ultigigas",
+	},
+	voltago: {
+		name: "Voltago",
+	},
+	zytias: {
+		name: "Zytias",
 	},
 };

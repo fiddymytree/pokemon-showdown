@@ -5632,4 +5632,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: -4,
 	},
+	icyhot: {
+		onModifyMove(move) {
+		  if (!move.secondaries) {
+			if(move.type === "Ice" || move.type === "Fire"){
+			  move.secondaries = [];
+			}
+		  }
+		  move.secondaries.push({
+			chance: 10,
+			status: "brn",
+			ability: this.dex.abilities.get("icyhot")
+		  });
+		},
+		name: "Icy Hot",
+		rating: 2,
+		num: -5
+	}
 };

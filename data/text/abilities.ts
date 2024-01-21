@@ -2263,4 +2263,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		activate: "  [POKEMON] extends [MOVE] by 2 turns!",
 	},
+	icyhot: {
+		name: "Icy Hot",
+		shortDesc: "This Pokemon's Ice and Fire type moves have a 10% chance of Burning.",
+	},
 };

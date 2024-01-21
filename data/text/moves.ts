@@ -7543,4 +7543,16 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
 	},
+	foliageturn: {
+		name: "Foliage Turn",
+		shortDesc: "User switches out after damaging the target.",
+	},
+	trickyreception: {
+		name: "Tricky Reception",
+		shortDesc: "Goes last. For 4 turns, turn order is reversed. And User switches out",
+	},
+	stainlessslash: {
+		name: "Stainless Slash",
+		shortDesc: "Sets Steel Surge on the target's side.",
+	}
 };
