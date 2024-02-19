@@ -20308,7 +20308,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1.7,
 		weightkg: 430,
 		color: "Purple",
-		tags: ["Legendary"],
 		eggGroups: ["Undiscovered"],
 	},
 	titanios: {
@@ -20321,7 +20320,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 2,
 		weightkg: 6,
 		color: "Blue",
-		tags: ["Legendary"],
 		eggGroups: ["Undiscovered"],
 	},
 	togo: {
@@ -20378,7 +20376,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 3.7,
 		weightkg: 420,
 		color: "White",
-		tags: ["Legendary"],
 		eggGroups: ["Undiscovered"],
 	},
 	voltago: {
@@ -20391,7 +20388,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.3,
 		weightkg: 0.3,
 		color: "Yellow",
-		tags: ["Legendary"],
 		eggGroups: ["Undiscovered"],
 	},
 	zytias: {
@@ -20404,7 +20400,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1.4,
 		weightkg: 40,
 		color: "Black",
-		tags: ["Legendary"],
 		eggGroups: ["Undiscovered"],
 	},
 	cereblaze: {
@@ -20424,7 +20419,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Wyrmperior",
 		types: ["Fire","Dragon"],
 		gender: "N",
-		baseStats: {hp: 105, atk: 120, def: 80, spa: 90, spd: 80, spe: 115},
+		baseStats: {hp: 75, atk: 65, def: 105, spa: 65, spd: 105, spe: 113},
 		abilities: {0: "Blaze", H: "Contrary"},
 		heightm: 1.4,
 		weightkg: 40,
@@ -20441,7 +20436,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1.4,
 		weightkg: 40,
 		color: "Black",
-		tags: ["Legendary"],
 		eggGroups: ["Undiscovered"],
 	},
 	tempervian: {
