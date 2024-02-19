@@ -12458,45 +12458,18 @@ export const Moves: { [moveid: string]: MoveData } = {
 	},
 	mist: {
 		num: 54,
-		accuracy: true,
+		accuracy: 85,
 		basePower: 0,
 		category: "Status",
 		name: "Mist",
-		pp: 30,
+		pp: 15,
 		priority: 0,
-		flags: { snatch: 1, metronome: 1 },
-		sideCondition: 'mist',
-		condition: {
-			duration: 5,
-			onTryBoost(boost, target, source, effect) {
-				if (effect.effectType === 'Move' && effect.infiltrates && !target.isAlly(source)) return;
-				if (source && target !== source) {
-					let showMsg = false;
-					let i: BoostID;
-					for (i in boost) {
-						if (boost[i]! < 0) {
-							delete boost[i];
-							showMsg = true;
-						}
-					}
-					if (showMsg && !(effect as ActiveMove).secondaries) {
-						this.add('-activate', target, 'move: Mist');
-					}
-				}
-			},
-			onSideStart(side) {
-				this.add('-sidestart', side, 'Mist');
-			},
-			onSideResidualOrder: 26,
-			onSideResidualSubOrder: 4,
-			onSideEnd(side) {
-				this.add('-sideend', side, 'Mist');
-			},
-		},
+		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1 },
+		status: 'frz',
 		secondary: null,
-		target: "allySide",
+		target: "normal",
 		type: "Ice",
-		zMove: { effect: 'heal' },
+		zMove: { boost: { atk: 1 } },
 		contestType: "Beautiful",
 	},
 	mistball: {
@@ -22050,13 +22023,13 @@ export const Moves: { [moveid: string]: MoveData } = {
 		flags: { mirror: 1 },
 		pseudoWeather: "trickroom",
 		condition: {
-			duration: 4,
+			duration: 3,
 			durationCallback(source, effect) {
 				if (source?.hasAbility("persistent")) {
 					this.add("-activate", source, "ability: Persistent", "[move] Trick Room");
 					return 6;
 				}
-				return 4;
+				return 3;
 			},
 			onFieldStart(target, source) {
 				if (source?.hasAbility("persistent")) {

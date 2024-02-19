@@ -3242,7 +3242,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	scrafty: {
-		tier: "NUBL",
+		tier: "NU",
 		doublesTier: "DUU",
 		natDexTier: "RU",
 	},
@@ -5511,7 +5511,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "RU",
 	},
 	ironthorns: {
-		tier: "NUBL",
+		tier: "NU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
@@ -6101,7 +6101,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	dorderra: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UUBL",
+		natDexTier: "UU",
 	},
 	elequil: {
 		isNonstandard: "Past",
@@ -6176,7 +6176,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	plaguekrow: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UU",
+		natDexTier: "OU",
 	},
 	pumpkasaur: {
 		isNonstandard: "Past",
@@ -6186,7 +6186,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	spectoise: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UUBL",
+		natDexTier: "UU",
 	},
 	ghoulizard: {
 		isNonstandard: "Past",
@@ -6206,7 +6206,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	skellejack: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UU",
+		natDexTier: "OU",
 	},
 	zapoleon: {
 		isNonstandard: "Past",
@@ -6236,7 +6236,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	champeon: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	dungeon: {
 		isNonstandard: "Past",
@@ -6312,5 +6312,30 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "Illegal",
+	},
+	cereblaze: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "OU",
+	},
+	wyrmperior: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "OU",
+	},
+	zeranheit: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "OU",
+	},
+	tempervian: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "OU",
+	},
+	boarbaque: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "UU",
 	},
 };
